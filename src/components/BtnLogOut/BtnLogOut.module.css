@@ -1,0 +1,25 @@
+.btnLogOut{
+    display: flex;
+    margin-top: 311px;
+    width: 290px;
+    height: max-content;
+}
+
+.btnLogOut button{
+    display: flex;
+    align-items: center;
+    margin-left: 38px;
+    background: inherit;
+    padding: 0;
+    border: none;
+    gap: 21px;
+}
+
+.btnLogOut span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #707C97;
+}

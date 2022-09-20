@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    gap: 246px;
+    align-items: center;
+}
+
+.header h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 26px;
+    margin-bottom: 65px;
+    margin-left: 1px;
+}
+
+.header button{
+    display: flex;
+    width: 240px;
+    height: 60px;
+    gap: 7px;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+    box-shadow: 6px 6px 25px rgba(42, 139, 242, 0.15), 4px 4px 25px rgba(42, 139, 242, 0.05), 10px 6px 25px rgba(42, 139, 242, 0.15);
+    border-radius: 6px;
+    border: none;
+}
+
+.header span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;  
+    color: white
+}
+
+.header img{
+    width: 24px;
+    height: 24px;
+}

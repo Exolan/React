@@ -1,0 +1,96 @@
+.chatsList{
+    margin-top: 20px;
+    display: block;
+}
+
+.block{
+    display: grid;
+    margin-top: 20px;
+    width: 580px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.block .header{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.avatar{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.info{
+    display: grid;
+    margin-left: 20px;
+    gap: 6px;
+}
+
+.info h2{
+    margin: 0;
+    margin-left: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D1C2E;
+}
+
+.time{
+    margin-right: 38px;
+    margin-left: auto;
+}
+
+.status{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.status img{
+    width: 12px;
+    height: 12px;
+}
+
+.header span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A8BF2;
+}
+
+.chatsList p{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #707C97;
+}
+
+.online{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 27px;
+    background: #00C305;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    width: 450px;
+    height: 78px;
+    margin-left: 40px;
+}
+

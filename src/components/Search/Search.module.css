@@ -1,0 +1,33 @@
+.search{
+    display: flex;
+    align-items: center;
+    width: 580px;
+    height: max-content;
+    margin-top: 30px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.search img{
+    margin-left: 41px;
+    width: 24px;
+    height: 100%;
+}
+
+.search input{
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    border: none;
+}
+
+.search input::placeholder{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
