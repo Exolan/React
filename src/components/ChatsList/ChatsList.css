@@ -1,15 +1,49 @@
 .chatsList{
     margin-top: 20px;
     display: block;
+    height: 790px;
+    width: 595px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatsList ul{
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    padding-bottom: 80px;
+}
+
+.chatsList li{
+    list-style-type: none;
+}
+
+.chatsList a{
+    text-decoration: none;
+}
+
+.chatsList::-webkit-scrollbar{
+    height: 79px;
+    width: 6px;
+    background-color: inherit;
+}
+
+.chatsList::-webkit-scrollbar-thumb{
+    background: #B7BDCB;
+    box-shadow: 4px 4px 15px rgba(112, 124, 151, 0.05), 2px 2px 10px rgba(112, 124, 151, 0.1), 1px 1px 50px rgba(112, 124, 151, 0.15);
+    border-radius: 10px;
 }
 
 .block{
     display: grid;
-    margin-top: 20px;
     width: 580px;
     height: 220px;
     background: #FFFFFF;
     border-radius: 6px;
+}
+
+.block:not(:first-child){
+    margin-top: 20px;
 }
 
 .block .header{
@@ -73,13 +107,15 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
     color: #707C97;
 }
 
 .online{
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     position: absolute;
     top: 27px;
     background: #00C305;
@@ -87,10 +123,85 @@
     border-radius: 50%;
 }
 
-.content{
+.mes-content{
     display: flex;
+    gap: 30px;
+}
+
+.content{
+    display: grid;
     width: 450px;
     height: 78px;
     margin-left: 40px;
 }
+
+.not-read{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #FF3366;
+    box-shadow: 4px 4px 15px rgba(198, 27, 74, 0.05), 2px 2px 10px rgba(198, 27, 74, 0.1), 1px 1px 50px rgba(198, 27, 74, 0.15);
+    border-radius: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+p{
+    margin: 0;
+}
+
+.another-mes{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.another-mes img{
+    height: 14px;
+    width: 14px;
+}
+
+.files{
+    display: flex;
+    margin-top: 13px;
+    width: max-content;
+    height: max-content;
+    gap: 20px
+}
+
+.files span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    margin-right: 13px;
+}
+
+.files img{
+    height: 20px;
+    width: 20px;
+    margin-left: 13px;
+}
+
+.files div{
+    display: flex;
+    width: max-content;
+    gap: 5px;
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+}
+
 

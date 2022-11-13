@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavItem({name, href, icon}){
     return(
-        <Link to={href}>
+        <NavLink to={href}>
             <img src={icon} alt="" />
             <span>{name}</span>
-        </Link>
+        </NavLink>
     )
 }
 

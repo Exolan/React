@@ -1,3 +1,6 @@
 .Main{
+    display: flex;
+    height: 1080px;
+    width: 100%;
     background: linear-gradient(180deg, #F3F3FB 0%, #FDFBFD 100%);
 }

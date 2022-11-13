@@ -20,6 +20,7 @@
     height: 70px;
     font-size: 18px;
     border: none;
+    outline: none;
 }
 
 .search input::placeholder{

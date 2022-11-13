@@ -16,6 +16,7 @@
 
 .header button{
     display: flex;
+    cursor: pointer;
     width: 240px;
     height: 60px;
     gap: 7px;

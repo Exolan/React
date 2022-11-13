@@ -1,8 +1,6 @@
 .asideBar{
     display: grid;
     width: 290px;
-    height: 1080px;
+    height: max-content;
     justify-content: center;
-    grid-template-columns: 290px;
-    grid-template-rows: max-content;
 }

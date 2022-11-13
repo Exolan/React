@@ -1,12 +1,14 @@
-import styles from './BtnLogOut.module.css'
+import { Link } from "react-router-dom";
+
+import './BtnLogOut.css'
 
 function BtnLogOut(){
     return(
-        <div className={styles.btnLogOut}>
-            <button>
+        <div className="btnLogOut">
+            <Link to={'/avtorization'} className="button">
                 <img src="/resurce/power.svg" alt="" />
                 <span>LOG OUT</span>
-            </button>
+            </Link>
         </div>
     )
 }
